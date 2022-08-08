@@ -1,0 +1,24 @@
+// Buttons started
+
+button {
+   font-size: 15px;
+   color: white;
+   font-weight: 700;
+   line-height: 167%;
+   font-family: 'Space Mono';
+   background: var(--yellow);
+   border: 3px solid transparent;
+   transition: all .3s;
+   min-width: 180px;
+   min-height: 53px;
+}
+
+button:hover {
+   background: transparent;
+   color: var(--yellow);
+   border-color: var(--yellow);
+}
+
+
+// buttons end
+

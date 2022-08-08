@@ -1,0 +1,15 @@
+.footer-nav {
+   .mobile_menu {
+      gap: 16px;
+   }
+}
+
+@media (min-width: 1440px) {
+   .title-xl {
+      font-size: 48px !important;
+   }
+
+   .footer-text {
+      font-size: 36px !important;
+   }
+}

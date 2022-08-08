@@ -1,0 +1,44 @@
+//main.js file
+// Responsive menu
+const menu = document.querySelector('.mobile-menu')
+const burger = document.querySelector('.mobile-burger')
+const body = document.querySelector('body')
+const bg = document.querySelector('.mobile-menu')
+burger.onclick = () => {
+  menu.classList.toggle('active')
+  burger.classList.toggle('active')
+  body.classList.toggle('active')
+}
+bg.onclick = () => {
+  menu.classList.toggle('active')
+  burger.classList.toggle('active')
+  body.classList.toggle('active')
+}
+// Hide mobile menu onclick anchor 
+const anchor = document.querySelectorAll('.mobile-menu li')
+anchor.forEach(item => {
+  item.onclick = () => {
+    menu.classList.remove('active')
+    burger.classList.remove('active')
+  }
+})
+
+
+// Tab
+let tabs = document.querySelectorAll('.accordion__contentBox'),
+  contents = document.querySelectorAll('.accordion__content');
+
+tabs.forEach((tab, index) => {
+  tab.addEventListener('click', () => {
+    contents.forEach((content) => {
+      content.classList.remove('active')
+    })
+    tabs.forEach((tab) => {
+      tab.classList.remove('active')
+
+    })
+    contents[index].classList.add('active')
+    tabs[index].classList.add('active')
+  })
+})
+

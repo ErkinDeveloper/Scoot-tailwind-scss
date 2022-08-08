@@ -1,0 +1,14 @@
+// $your-variable-name: example red, 18px, italic, "Arial";
+:root {
+   --yellow: #fcb72b;
+   --dark-navy: #495567;
+   --dim-grey: #939aaa;
+   --light-grey: #e5ecf4;
+   --snow: #f2f5f9;
+   --light-yellow: #fff4df;
+}
+
+*::selection {
+   background-color: var(--yellow);
+   color: #fff;
+}

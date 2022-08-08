@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body.active {
+   overflow: hidden !important;
+}
+
+.mcontainer {
+   width: 90%;
+   max-width: 1110px;
+   margin: 0 auto;
+}
+
+
+
