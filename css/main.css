@@ -6,9 +6,6 @@
   font-family: "Lexend deca";
   src: url(../fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 body.active {
   overflow: hidden !important;
 }
